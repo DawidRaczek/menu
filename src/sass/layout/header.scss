@@ -3,6 +3,7 @@
 
 .header {
   background-color: lightcoral;
+  transition: all 600ms ease-in-out;
 
   &__inner {
     margin-inline: auto;
@@ -10,4 +11,11 @@
     max-width: rem(960px, 16px);
     @include flex(space-between, center)
   }
+}
+
+//media query
+@media screen and (max-width: 960px) {
+    .header {
+      background-color: lightskyblue;
+    }
 }

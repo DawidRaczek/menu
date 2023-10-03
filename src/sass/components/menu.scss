@@ -24,7 +24,7 @@
       border-top-right-radius: rem(4px);
     }
     @include link(white, darkgrey) {
-      border-bottom: 3px solid blue;
+      border-bottom: rem(2px) solid darkgray;
     }
   }
 }

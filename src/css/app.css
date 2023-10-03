@@ -325,6 +325,7 @@ html, body {
 }
 .header {
   background-color: lightcoral;
+  transition: all 600ms ease-in-out;
 }
 .header__inner {
   margin-inline: auto;
@@ -336,6 +337,11 @@ html, body {
   flex-wrap: no-wrap;
 }
 
+@media screen and (max-width: 960px) {
+  .header {
+    background-color: lightskyblue;
+  }
+}
 .menu {
   background-color: peru;
   align-self: flex-end;
@@ -362,16 +368,16 @@ html, body {
   border-top-right-radius: 0.25rem;
 }
 .menu__item:link {
-  border-bottom: 3px solid blue;
+  border-bottom: 0.125rem solid darkgray;
 }
 .menu__item:visited {
-  border-bottom: 3px solid blue;
+  border-bottom: 0.125rem solid darkgray;
 }
 .menu__item:active {
-  border-bottom: 3px solid blue;
+  border-bottom: 0.125rem solid darkgray;
 }
 .menu__item--active, .menu__item:hover {
-  border-bottom: 3px solid blue;
+  border-bottom: 0.125rem solid darkgray;
   color: white;
   background-color: darkgrey;
 }
@@ -382,6 +388,10 @@ html, body {
   height: 4rem;
   margin: 0.625rem;
   display: inline-block;
+  transition: all 400ms ease-in-out;
+}
+.logo:hover {
+  transform: rotate(360deg);
 }
 
 /*# sourceMappingURL=app.css.map */
