@@ -7,3 +7,5 @@
 3. [Zmienne](https://sass-lang.com/documentation/variables/)
 4. [Funkcje](https://sass-lang.com/documentation/at-rules/function/)
 5. [Interpolacja](https://sass-lang.com/documentation/interpolation/)
+6. [Mapy](https://sass-lang.com/documentation/values/maps/)
+7. [Mixin](https://sass-lang.com/documentation/at-rules/mixin/)
